@@ -1,0 +1,7 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:gitbub) {|repo_name| "https://github.com/#{repo_name}"}
+
+gem "rails", "~> 6"
